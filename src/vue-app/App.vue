@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="demo-page">
         新页面
         <button @click="butclick">click me</button>
         <span>{{ name }}</span>
@@ -18,7 +18,6 @@ function butclick() {
         .then((data) => {
             console.log(data);
             name.value = data.name
-
         });
 
 }
@@ -27,3 +26,11 @@ onMounted(() => {
 
 })
 </script>
+<style scoped lang="scss">
+.demo-page {
+    background-color: antiquewhite;
+    button{
+        color: red;
+    }
+}
+</style>

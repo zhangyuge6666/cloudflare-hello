@@ -12,13 +12,17 @@
 		"publish": true
 	},
 	"dependencies": {
+		"dayjs": "^1.11.19",
 		"hono": "4.11.1",
-		"vue": "^3.5.29"
+		"vue": "^3.5.29",
+		"vue-router": "^5.0.3"
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "1.15.3",
 		"@vitejs/plugin-vue": "^6.0.4",
+		"sass": "^1.97.3",
 		"vite": "^7.3.1",
+		"vite-plugin-vue-devtools": "^8.0.6",
 		"wrangler": "4.56.0"
 	},
 	"private": true,
