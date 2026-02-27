@@ -3,6 +3,7 @@
         新页面
         <button @click="butclick">click me</button>
         <span>{{ name }}</span>
+        <RouterView />
     </div>
 </template>
 
@@ -29,7 +30,8 @@ onMounted(() => {
 <style scoped lang="scss">
 .demo-page {
     background-color: antiquewhite;
-    button{
+
+    button {
         color: red;
     }
 }
